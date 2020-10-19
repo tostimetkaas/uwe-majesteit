@@ -1,0 +1,12 @@
+body {
+  height: 100vh;
+  /* background: url(https://static.dezeen.com/uploads/2018/06/lgbt-pride-flag-redesign-3-852x637.jpg); */
+  background-size: 100vh;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

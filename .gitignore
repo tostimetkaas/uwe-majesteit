@@ -1,0 +1,17 @@
+.DS_Store
+.env
+.flaskenv
+*.pyc
+*.pyo
+env/
+env*
+dist/
+build/
+.cache/
+# instance/ zou weg moeten als dit een echte app was
+__pycache__/
+*/node_modules/
+migrations/
+*.db
+*.lock
+*error.log

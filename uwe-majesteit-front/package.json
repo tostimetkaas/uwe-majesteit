@@ -1,0 +1,63 @@
+{
+  "name": "uwe-majesteit-front",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "bootstrap-css": "^4.0.0-alpha.5",
+    "bootstrap-vue": "^2.17.3",
+    "core-js": "^3.6.5",
+    "jquery": "^3.5.1",
+    "package.json": "^2.0.1",
+    "popper.js": "^1.16.1",
+    "vue": "^2.6.12",
+    "vue-class-component": "^7.2.6",
+    "vue-component": "^0.3.1",
+    "vue-google-api": "^0.2.0",
+    "vue-google-signin-button": "^1.0.4",
+    "vue-property-decorator": "^8.4.2",
+    "vue-router": "^3.4.6",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "devDependencies": {
+    "@types/gapi": "0.0.39",
+    "@types/gapi.auth2": "0.0.52",
+    "@typescript-eslint/eslint-plugin": "^2.33.0",
+    "@typescript-eslint/parser": "^2.33.0",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-typescript": "^4.5.7",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "@vue/eslint-config-typescript": "^5.0.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^7.0.0-0",
+    "typescript": "~3.9.3"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended",
+      "@vue/typescript"
+    ],
+    "parserOptions": {
+      "parser": "@typescript-eslint/parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
