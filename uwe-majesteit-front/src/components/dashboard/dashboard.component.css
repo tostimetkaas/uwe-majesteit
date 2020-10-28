@@ -1,5 +1,17 @@
-section {
+#dashboard {
   display: flex;
   flex-direction: row-reverse;
+  justify-content: space-between;
+  height: calc(100vh - 64px - 64px);
+}
+
+#dr-occy {
+  width: 500px;
+  transform: rotate(-70deg);
+  /* margin-top: -10%; */
+}
+
+
+.welcome-msg {
   align-self: center;
 }
