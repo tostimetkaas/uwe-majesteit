@@ -11,6 +11,7 @@ build/
 # instance/ zou weg moeten als dit een echte app was
 __pycache__/
 */node_modules/
+*/node_modules/*
 migrations/
 *.db
 *.lock

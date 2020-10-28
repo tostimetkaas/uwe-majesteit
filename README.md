@@ -38,6 +38,18 @@ server {
   }
 }
 ```
+
+### Enable ssh on server (Ubuntu 20)
+```lang=bash
+# Enable ssh
+sudo apt install ssh
+sudo systemctl enable --now ssh
+sudo systemctl status ssh
+
+# Allow firewall
+sudo ufw status verbose
+sudo ufw allow ssh
+```
 # uwemajesteit
 
 ## Project setup
