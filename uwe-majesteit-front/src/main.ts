@@ -1,8 +1,5 @@
 import App from './App.vue'
-
 import Vue from 'vue'
-import GSignInButton from 'vue-google-signin-button'
-Vue.use(GSignInButton)
 
 import {
   BootstrapVue, BootstrapVueIcons
