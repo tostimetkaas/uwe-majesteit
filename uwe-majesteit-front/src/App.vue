@@ -3,10 +3,10 @@
     <Navbar brandname="Uwe majesteit" />
 
     <section id="main-container">
-      <!-- <router-view></router-view> -->
+      <router-view></router-view>
     </section>
 
-    <Footer brandname="Uwe majesteit" />
+    <!-- <Footer brandname="Uwe majesteit" /> -->
   </div>
 </template>
 

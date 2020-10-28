@@ -8,5 +8,6 @@ import { Component, Vue } from 'vue-property-decorator';
 @Component
 export default class PrivacyStatement extends Vue {
   // @Prop() private brandname!: string;
+  isDutch: boolean = false;
 }
 </script>

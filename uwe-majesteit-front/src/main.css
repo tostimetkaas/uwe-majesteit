@@ -1,3 +1,12 @@
+:root {
+  --space-cadet: #2E3047;
+  --mountain-meadow: #3bba9c;
+  --celadon: #8EE4AF;
+  --beige: #EDF5E1;
+  --prussian-blue: #05386B;
+}
+
+
 /* Raleway & Open Sans font, google */
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
@@ -11,7 +20,7 @@
 } */
 
 body {
-  color: #110d03;
+  color: var(--prussian-blue);
 }
 
 a {
@@ -23,6 +32,10 @@ p {
   font-family: 'Open Sans', Avenir, Helvetica, Arial, sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', 'Open Sans', Avenir, Helvetica, Arial, sans-serif;
+}
+
 section, div {
   height: inherit;
 }
@@ -31,33 +44,33 @@ section, div {
   font-family: 'Raleway', 'Open Sans', Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #f6f6f6;
-  min-height: 100vh;
-  display: flex;
-  flex-flow: column;
-  justify-content: space-between;
-  background-color: #3ba040;
+  color: var(--beige);
+  background-color: var(--mountain-meadow);
 }
 
 #main-container {
-  background-color: #110d03;
-  height: calc(100vh - 64px);
+  background-color: var(--space-cadet);
+  min-height: calc(100vh - 64px);
   text-align: center;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  padding: 15px;
+  padding: 15px 30px;
+  display: grid;
 }
 
 #navbar {
   height: 64px;
+  background-color: var(--mountain-meadow);
+  color: var(--prussian-blue);
 }
 
 #footer {
-  background-color: #f5f5f5;
+  background-color: var(--beige);
   max-width: none;
   padding: 15px;
-  color: #110d03;
+  color: var(--prussian-blue);
 }
+
 
 .social-link img {
   height: 32px;
